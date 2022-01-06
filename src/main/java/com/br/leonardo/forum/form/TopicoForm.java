@@ -3,11 +3,23 @@ package com.br.leonardo.forum.form;
 import com.br.leonardo.forum.model.Curso;
 import com.br.leonardo.forum.model.Topico;
 import com.br.leonardo.forum.repository.CursoRepository;
+import org.hibernate.validator.constraints.Length;
+
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 
 public class TopicoForm {
 
+    @NotNull
+    @NotEmpty
     private String titulo;
+
+    @NotNull
+    @NotEmpty
     private String mensagem;
+
+    @NotNull
+    @NotEmpty
     private String nomeCurso;
 
     public String getTitulo() {

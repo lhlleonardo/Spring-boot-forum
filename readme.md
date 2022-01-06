@@ -14,6 +14,7 @@ Project configurations and versions
 - Spring Boot DevTools
 - Spring Boot Starter Data JPA
 - H2 Database Engine
+- Spring Boot Starter Validation
 
 ## Contents
 
