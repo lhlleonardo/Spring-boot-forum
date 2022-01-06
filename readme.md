@@ -7,6 +7,14 @@ Project configurations and versions
 - Java 11
 - Spring version 2.6.2
 
+## Dependencies
+
+- Spring Boot Starter Web
+- Spring Boot Starter Test
+- Spring Boot DevTools
+- Spring Boot Starter Data JPA
+- H2 Database Engine
+
 ## Contents
 
 - Available in: https://cursos.alura.com.br/course/spring-boot-api-rest
